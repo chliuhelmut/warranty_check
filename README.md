@@ -59,6 +59,8 @@ root
 
 ---/tools : binary tools of webdriver, currently supporting firefox and chrome 
 
+---/img : stored screenshot png files of failed cases
+
 
 
 
@@ -69,6 +71,8 @@ root
 3. export path of ./tools to env variable for launching executables
 4. cd to project folder 
 5. type "pytest -v" or "pytest -v --html=<report_name>.html" to launch the automation test
+6. Pytest will discover the .py files with test prefix and start to perform testing.
+7. screenshot png files will be stored under ./img folder if test failed in assertion
 
 
 
