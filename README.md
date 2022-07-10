@@ -39,7 +39,7 @@ Python modules and binary files used in this project
 
 *pytest-html
 
-*Webdriver binary(firefox,chrome)
+*Webdriver binary files (firefox,chrome - both for windows platform)
 
 
 
